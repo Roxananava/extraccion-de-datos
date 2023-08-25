@@ -1,0 +1,25 @@
+import pandas as pd
+
+#dataframes
+datos={
+    "nombres": ["maria","Luis","Carme"],
+    "materias": ["Matematicas","programacion","mercadotecnia"],
+    "promedios": [80,90,100]
+}
+
+df_alumnos= pd.DataFrame(datos)
+
+#pd.read_csv
+
+#head primesros 5 datos
+#tail ultimos 5
+#sample datos aleatorios no repetidos
+#info
+#discrime
+#shape
+#size
+#columns imprime las columnas
+#dtype
+#index
+#.nombre de columna (sin espacios en blanco)
+#.[nombres de columnas ]
